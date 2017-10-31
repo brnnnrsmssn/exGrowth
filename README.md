@@ -1,11 +1,11 @@
 # exGrowth
-a system for D&D character progression inspired by the light novel series, written by Fujino Ōmori and illustrated by Suzuhito Yasuda, chronicling the adventures of bell cranell.
+a system for d&d character progression inspired by the light novel series, written by Fujino Ōmori and illustrated by Suzuhito Yasuda, chronicling the adventures of bell cranell.
 
 the premise is that your actions be they successful or failures give you experience and through that experience you improve, but only in the areas in which you have experience. so hitting something will not improve your ability to cast spells. overlaying this premise on the d&d system of character stats and abilities is the goal of this system.
 
 implementation(s) are targeted at systems which most easily allow for play and use of the system. initially javascript, for use on roll20.net platform as a game script. more implementations may be made in the future.
 
-all trademarks and copyrights are property of their respective owners. i make no claim to them and use them here only to reference those works. i do not believe that any work in this repository is or ever will encroach upon the rights retained by holders of the aformentioned copyrights and trademarks.
+*all trademarks and copyrights are property of their respective owners. i make no claim to them and use them here only to reference those works. i do not believe that any work in this repository is or ever will encroach upon the rights retained by holders of the aformentioned copyrights and trademarks.*
 
 ## to-do (an incomplete list)
  * determine the number of characters
