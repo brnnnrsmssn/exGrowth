@@ -5,7 +5,7 @@ the premise is that your actions be they successful or failures give you experie
 
 implementation(s) are targeted at systems which most easily allow for play and use of the system. initially javascript, for use on roll20.net platform as a game script. more implementations may be made in the future.
 
-*all trademarks and copyrights are property of their respective owners. i make no claim to them and use them here only to reference those works. i do not believe that any work in this repository is or ever will encroach upon the rights retained by holders of the aformentioned copyrights and trademarks.*
+*all trademarks and copyrights are property of their respective owners. i make no claim to them and use them here only to reference those works.*
 
 ## to-do (an incomplete list)
  * determine the number of characters
