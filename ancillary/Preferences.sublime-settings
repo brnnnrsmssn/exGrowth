@@ -1,0 +1,10 @@
+{
+	"caret_style": "wide",
+	"color_scheme": "Packages/User/SublimeLinter/machinate (SL).tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme",
+	"default_line_ending": "unix"
+}
