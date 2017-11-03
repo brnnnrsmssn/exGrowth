@@ -1,7 +1,7 @@
 /*
 	GLOSSAARY
 
-	- : the accumulation of a characters experiences. used to distinguish between experiences (events) from experience points (stats). falna will be used to represent event type experiences.
+	- experientia: the accumulation of a characters experiences. used to distinguish between experiences{this} (events) from experience points{!this} (stats).
 
 	- experience points [experience, exp, xp]: granted to players for doing actions. they are the underlying metric for a characters stats.
 
@@ -22,6 +22,11 @@
 	- modifier [mod]:
 */
 
+/////////////////////////////////////////////////////////////////////////////////////////
+/*   FUNCTIONS   */
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
 function playerCharacter() { //character constructor
 	this.name = undefined;
 	this.level = undefined;
@@ -36,24 +41,31 @@ function playerCharacter() { //character constructor
 	//wisdom variables
 	this.wis = new Array (score:undefined, mod:undefined, exp:undefined);
 	//charisma variables
-	this.str = new Array (score:undefined, mod:undefined, exp:undefined);
+	this.cha = new Array (score:undefined, mod:undefined, exp:undefined);
 
 	
 }
 
-function findCharacter(pc) {
-	//get character name from sheet store as sheetName;
-	while (pc.name != sheetName) {
-		
-	}
+function findCharacter(pc) { //iterates through all the character sheets and returns the correstponding sheet to a character object
+	var sheet = undefined;
+	do {
+		//*get new sheet
+		break; //*temporary until the rest of the code is filled in
+	} while (pc.name != sheet.name);
+	return sheet;
 }
 
 function pullCharacter(pc) { //pulls character information from the character sheet and fills out the correct playerCharacer object with those values
 
 	/*
-	get pc name from pc.name;
-	find matching character sheet;
-	pull stats from sheet and store in pc;
+	var sheet = findCharacter(pc)
+	// pc.level = sheet.level;
+	pc.str = {sheet.str, sheet.strMod, sheet.strExp};
+	pc.dex = {sheet.dex, sheet.dexMod, sheet.dexExp};
+	pc.con = {sheet.con, sheet.conMod, sheet.conExp};
+	pc.int = {sheet.int, sheet.intMod, sheet.intExp};
+	pc.wis = {sheet.wis, sheet.wisMod, sheet.wisExp};
+	pc.cha = {sheet.cha, sheet.chaMod, sheet.chaExp};
 	*/
 
 }
@@ -65,10 +77,15 @@ function pushCharacter(pc) { //pushes updated character stats to the correct cha
 	*/
 }
 
-function didAThing(pc,stat,exp) { //implements the application of falna to a players stats
+function didAThing(pc,stat,exp) { //implements the application of experientia to a players stats
 	
 	/*
 	pc.
 	*/
 
 }
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/*   CONSTANTS   */
+/////////////////////////////////////////////////////////////////////////////////////////
